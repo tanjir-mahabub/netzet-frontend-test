@@ -1,12 +1,18 @@
 import type { Metadata } from "next";
-import { Figtree } from 'next/font/google'
+import { Figtree, Urbanist } from 'next/font/google'
 import "@/styles/globals.css";
 
 const figtree = Figtree({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
   variable: '--font-figtree',
-})
+});
+
+const urbanist = Urbanist({
+  subsets: ['latin'],
+  weight: ['400', '500', '700'], // adjust as needed
+  variable: '--font-urbanist',
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,9 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${figtree.variable}`}>
+    <html lang="en">
       <body
-        className="font-figtree antialiased"
+        className={`${figtree.variable} ${urbanist.variable} antialiased`}
       >
         {children}
       </body>
