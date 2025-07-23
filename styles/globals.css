@@ -12,3 +12,7 @@
 
     --gradient-primary-secondary: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
 }
+
+.bg-gradient-primary-secondary {
+    background-image: var(--gradient-primary-secondary);
+}

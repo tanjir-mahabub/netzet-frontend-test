@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
     return (
-        <header className="flex items-center md:items-start justify-between md:justify-start h-[46px] lg:h-[24.95px] px-6 py-4 mt-7 relative">
+        <header className="flex items-center md:items-start justify-between md:justify-start h-[46px] lg:h-full px-6 py-4 mt-5 relative">
             {/* Logo container */}
             <div className="absolute md:static left-1/2 md:left-0 -translate-x-1/2 md:translate-x-0">
                 <div className="relative w-[107.78px] h-[46.07px] lg:w-[173.12px] lg:h-[74px]">
