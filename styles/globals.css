@@ -3,9 +3,11 @@
 @theme {
     --font-figtree: "Figtree", sans-serif;
     --font-urbanist: "Urbanist", sans-serif;
+    --font-nunito: "Nunito", sans-serif;
 
     --color-primary: #FC004E;
     --color-secondary: #10CBE0;
+    --color-tertiary: #ABABAB;
     --color-dark: #010101;    
 
     --gradient-primary-secondary: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);
