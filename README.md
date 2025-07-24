@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NetZet Frontend Test
+
+A modern React/Next.js frontend project for the NetZet platform featuring a responsive Hero section, banner, and global styling with Tailwind CSS.
+
+## Features
+
+- Responsive Hero section with heading, features list, and call-to-action
+- Promotional Banner component
+- Tailwind CSS utility classes with reusable global styles (`globals.css`)
+- Image optimization using Next.js `<Image>` component
+- Modular React components for easy maintenance
+
+## Technologies
+- Next.js 15
+- React 19
+- Tailwind CSS 4
+- TypeScript 5
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repo  
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+   git clone https://github.com/yourusername/netzet-frontend-test.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies
+```bash
+   npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run development server
+```bash
+   npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Build for production
+```bash
+   npm run build
+   npm run start
+```
 
-## Learn More
+### 📂 Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+```plaintext
+components/   # React components
+styles/       # Global styles including globals.css
+app/          # Next.js pages and layout files
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Contributing
+Feel free to open issues or pull requests. Follow the existing code style and commit message conventions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### License
+MIT License © 2025
