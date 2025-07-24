@@ -8,6 +8,8 @@
     --color-primary: #FC004E;
     --color-secondary: #10CBE0;
     --color-tertiary: #ABABAB;
+    --color-quaternary: #A9A9A9;
+
     --color-dark: #010101;    
 
     --gradient-primary-secondary: linear-gradient(90deg, var(--color-primary) 0%, var(--color-secondary) 100%);

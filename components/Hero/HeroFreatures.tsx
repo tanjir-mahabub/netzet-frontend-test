@@ -8,7 +8,7 @@ const features = [
 ];
 
 const HeroFeatures = () => (
-    <ul className="space-y-3 font-figtree font-medium lg:font-semibold text-[16px] leading-[22px]">
+    <ul className="space-y-3 font-figtree font-normal lg:font-semibold text-[16px] leading-[22px]">
         {features.map((text, index) => (
             <FeatureItem key={index} text={text} />
         ))}

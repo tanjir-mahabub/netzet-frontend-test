@@ -1,7 +1,7 @@
 const HeroCTA = () => (
-    <div className="flex flex-col-reverse md:flex-col gap-[28px] md:gap-[36px]">
-        <div className="flex flex-col gap-2 max-w-full md:max-w-[313px]">
-            <button className="bg-primary hover:bg-primary-700 w-full h-[40px] text-xl leading-[100%] rounded-[10px] font-bold drop-shadow-[2px_2px_10px_var(--color-secondary)] cursor-pointer transition-all duration-300">
+    <div className="flex flex-col-reverse md:flex-col gap-[54px] md:gap-[36px] pb-5 md:pb-0">
+        <div className="flex flex-col gap-3 max-w-full md:max-w-[313px]">
+            <button className="bg-primary hover:bg-primary-700 w-full h-[40px] font-figtree text-xl leading-[100%] rounded-[10px] font-bold drop-shadow-[2px_2px_10px_var(--color-secondary)] cursor-pointer transition-all duration-300">
                 GET STARTED →
             </button>
             <p className="font-figtree font-normal text-[12px] leading-[16px] text-center align-middle">
