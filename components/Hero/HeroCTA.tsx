@@ -1,20 +1,22 @@
 const HeroCTA = () => (
     <div className="flex flex-col-reverse md:flex-col gap-[54px] md:gap-[36px] pb-5 md:pb-0">
-        <div className="flex flex-col gap-3 max-w-full md:max-w-[313px]">
-            <button className="bg-primary hover:bg-primary-700 w-full h-[40px] font-figtree text-xl leading-[100%] rounded-[10px] font-bold drop-shadow-[2px_2px_10px_var(--color-secondary)] cursor-pointer transition-all duration-300">
+        {/* CTA Button + Subtext */}
+        <div className="flex flex-col gap-3 w-full max-w-full md:max-w-[313px]">
+            <button className="cta-button">
                 GET STARTED →
             </button>
-            <p className="font-figtree font-normal text-[12px] leading-[16px] text-center align-middle">
+            <p className="cta-subtext">
                 1-minute quiz for personalized Insights
             </p>
         </div>
 
+        {/* Terms + Copyright */}
         <div className="flex flex-col gap-[27px]">
-            <p className="font-figtree font-medium text-[12px] leading-[100%] align-middle text-tertiary text-center md:text-left">
+            <p className="cta-terms">
                 By clicking &quot;Get Started&quot;, you agree with Terms and Conditions,
                 Privacy Policy, Subscription Terms
             </p>
-            <p className="font-nunito md:font-figtree font-medium text-[10px] leading-[100%] align-middle text-tertiary text-center md:text-left">
+            <p className="cta-copy">
                 Fametonic 2025 © All Rights Reserved.
             </p>
         </div>

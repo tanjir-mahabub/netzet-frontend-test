@@ -5,9 +5,9 @@ import Image from "next/image";
 
 const Hero = () => {
     return (
-        <section className="relative flex flex-col-reverse md:flex-row justify-between items-center gap-6 px-6 md:py-[70px] xl:py-[30px]">
+        <section className="relative flex flex-col-reverse md:flex-row justify-between items-center gap-6 px-2 sm:px-6 md:py-[70px] xl:py-[30px]">
             {/* Content */}
-            <div className="flex-1 space-y-6 z-10 max-w-[516px]">
+            <div className="flex-1 space-y-6 z-10 max-w-[516px] tracking-normal">
                 <HeroHeading />
                 <HeroFeatures />
                 <HeroCTA />
