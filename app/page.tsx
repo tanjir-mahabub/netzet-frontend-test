@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="bg-dark text-white min-h-screen overflow-auto lg:overflow-hidden">
         <Banner />
-      <article className="container-lg xl:container mx-auto">
+      <article className="container mx-auto max-w-[960px]">
         <Header />
         <Hero />
       </article>
