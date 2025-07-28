@@ -1,3 +1,5 @@
+import "./Banner.css";
+
 const Banner = () => {
     return (
         <section className="w-full h-full xs:h-[76px] lg:h-[46px] py-2 xs:py-0 bg-gradient-primary-secondary">

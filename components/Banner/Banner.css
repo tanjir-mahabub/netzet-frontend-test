@@ -1,0 +1,13 @@
+@reference "../../styles/globals.css";
+
+
+.bg-gradient-primary-secondary {
+    background-image: var(--gradient-primary-secondary);
+}
+
+.banner-emoji {
+    @apply font-figtree font-extrabold leading-none text-center md:text-right text-[16px] lg:text-[22px] flex-shrink-0;
+}
+.banner-text {
+    @apply font-figtree text-white leading-none text-center md:text-left text-[16px] sm:text-[18px] xl:text-[22px];
+}

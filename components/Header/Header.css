@@ -1,0 +1,10 @@
+@reference "../../styles/globals.css";
+
+.hero-heading {
+    @apply font-urbanist text-[25px] sm:text-[28px] xl:text-[35px] font-extrabold md:font-bold text-center md:text-left leading-[100%];
+}
+
+.hero-heading-highlight {
+    @apply text-secondary;
+    text-shadow: 0 0 1px #FC004E, 0 4px 4px #FC004E;
+}
