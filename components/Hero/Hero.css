@@ -6,14 +6,14 @@
 }
 
 .hero-heading-highlight {
-    @apply text-secondary;
+    @apply text-[#00E7F9];
     text-shadow: 0 0 1px #FC004E, 0 4px 4px #FC004E;
 }
 
 .cta-button {
     @apply w-full h-[40px] rounded-[10px] cursor-pointer transition-all duration-300 
         bg-primary hover:bg-primary/90 text-xl font-bold leading-none 
-        font-figtree drop-shadow-[2px_2px_10px_var(--color-secondary)];
+        font-figtree drop-shadow-[2px_2px_10px_rgb(0,231,249)];
 }
 
 .cta-subtext {

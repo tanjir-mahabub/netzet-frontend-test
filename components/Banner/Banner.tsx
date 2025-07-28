@@ -7,8 +7,8 @@ const Banner = () => {
                 <div className="flex text-center md:text-left items-start lg:gap-1 max-w-[350px] sm:max-w-[500px] md:max-w-fit">
                     <span className="banner-emoji">🚀</span>
                     <p className="banner-text">
-                        <span className="text-secondary font-extrabold">FRESH BEGINNINGS SALE:</span> 
-                        <span className="font-semibold"> Extra 25% OFF, Limited Spots — start your journey today!</span>
+                        <span className="text-[#00E7F9] font-extrabold">FRESH BEGINNINGS SALE:</span> 
+                        <span className="font-semibold"> Extra 25% OFF, Limited Spots - start your journey today!</span>
                     </p>
                 </div>
             </div>
